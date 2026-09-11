@@ -121,11 +121,11 @@ export const dict: Record<Locale, Dict> = {
     "pricing.cta": "Выбрать пакет",
     "pricing.note": "Нужно иначе? Соберу индивидуальную смету под вашу задачу — бесплатно.",
     "partners.kicker": "05 — Партнёрам",
-    "partners.title": "5% с каждой оплаты. Каждый месяц.",
+    "partners.title": "10% с каждой оплаты. Каждый месяц.",
     "partners.sub":
       "Рекомендуйте наши услуги и получайте стабильный пассивный доход, пока привлечённый клиент с нами.",
-    "partners.1.t": "5% от договора",
-    "partners.1.d": "Выплата — 5% от стоимости договора ежемесячно.",
+    "partners.1.t": "10% от договора",
+    "partners.1.d": "Выплата — 10% от стоимости договора ежемесячно.",
     "partners.2.t": "С каждой оплаты",
     "partners.2.d":
       "Начисление — каждый раз, когда привлечённый вами клиент оплачивает поддержку.",
@@ -283,11 +283,11 @@ export const dict: Record<Locale, Dict> = {
     "pricing.cta": "Paket seç",
     "pricing.note": "Başqa lazımdır? Tapşırığınıza fərdi smeta — pulsuz.",
     "partners.kicker": "05 — Tərəfdaşlara",
-    "partners.title": "Hər ödənişdən 5%. Hər ay.",
+    "partners.title": "Hər ödənişdən 10%. Hər ay.",
     "partners.sub":
       "Xidmətlərimizi tövsiyə edin və cəlb etdiyiniz müştəri bizimlə olduğu müddətcə stabil passiv gəlir əldə edin.",
-    "partners.1.t": "Müqavilənin 5%-i",
-    "partners.1.d": "Ödəniş — müqavilə dəyərinin 5%-i, aylıq.",
+    "partners.1.t": "Müqavilənin 10%-i",
+    "partners.1.d": "Ödəniş — müqavilə dəyərinin 10%-i, aylıq.",
     "partners.2.t": "Hər ödənişdən",
     "partners.2.d":
       "Hesablanma — cəlb etdiyiniz müştəri dəstək haqqını hər ödədikdə.",
@@ -445,11 +445,11 @@ export const dict: Record<Locale, Dict> = {
     "pricing.cta": "Pick a plan",
     "pricing.note": "Need different? I'll make a free custom quote for your task.",
     "partners.kicker": "05 — For partners",
-    "partners.title": "5% of every payment. Every month.",
+    "partners.title": "10% of every payment. Every month.",
     "partners.sub":
       "Recommend our services and earn steady passive income for as long as your referred client stays with us.",
-    "partners.1.t": "5% of the contract",
-    "partners.1.d": "Payout — 5% of the contract value, monthly.",
+    "partners.1.t": "10% of the contract",
+    "partners.1.d": "Payout — 10% of the contract value, monthly.",
     "partners.2.t": "With every payment",
     "partners.2.d":
       "Accrues each time your referred client pays for support.",
