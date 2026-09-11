@@ -17,6 +17,7 @@ export const dict: Record<Locale, Dict> = {
     "nav.process": "Процесс",
     "nav.pricing": "Цены",
     "nav.faq": "FAQ",
+    "nav.partners": "Партнёрам",
     "nav.cta": "Обсудить проект",
     "hero.badge": "Web • Mobile • CRM • SaaS — под ключ",
     "hero.available": "Свободен для проектов",
@@ -119,7 +120,22 @@ export const dict: Record<Locale, Dict> = {
     "pricing.3.f4": "Поддержка и развитие",
     "pricing.cta": "Выбрать пакет",
     "pricing.note": "Нужно иначе? Соберу индивидуальную смету под вашу задачу — бесплатно.",
-    "faq.kicker": "05 — FAQ",
+    "partners.kicker": "05 — Партнёрам",
+    "partners.title": "5% с каждой оплаты. Каждый месяц.",
+    "partners.sub":
+      "Рекомендуйте наши услуги и получайте стабильный пассивный доход, пока привлечённый клиент с нами.",
+    "partners.1.t": "5% от договора",
+    "partners.1.d": "Выплата — 5% от стоимости договора ежемесячно.",
+    "partners.2.t": "С каждой оплаты",
+    "partners.2.d":
+      "Начисление — каждый раз, когда привлечённый вами клиент оплачивает поддержку.",
+    "partners.3.t": "Пока жив договор",
+    "partners.3.d":
+      "Вознаграждение — на протяжении всего времени действия договора с клиентом.",
+    "partners.cta": "Стать партнёром",
+    "partners.note":
+      "Знаете тех, кому нужна надёжная поддержка? Познакомьте нас — обсудим детали партнёрства!",
+    "faq.kicker": "06 — FAQ",
     "faq.title": "Вопросы, которые задают все",
     "faq.1.q": "Сколько стоит мой проект?",
     "faq.1.a":
@@ -139,7 +155,7 @@ export const dict: Record<Locale, Dict> = {
     "faq.6.q": "А поддержка после запуска?",
     "faq.6.a":
       "30 дней — бесплатно. Дальше — $90/мес для визитки, $290/мес для CRM, $490/мес для SaaS/Mobile. Не пропадаю после релиза — мой Quvex я поддерживаю сам.",
-    "contact.kicker": "06 — Контакт",
+    "contact.kicker": "07 — Контакт",
     "contact.title": "Расскажите задачу — отвечу за час",
     "contact.sub":
       "Оставьте контакт и пару слов о задаче. Или просто напишите в мессенджер — так быстрее.",
@@ -163,6 +179,7 @@ export const dict: Record<Locale, Dict> = {
     "nav.process": "Proses",
     "nav.pricing": "Qiymətlər",
     "nav.faq": "FAQ",
+    "nav.partners": "Tərəfdaşlara",
     "nav.cta": "Layihəni müzakirə et",
     "hero.badge": "Web • Mobile • CRM • SaaS — açar təslim",
     "hero.available": "Layihələr üçün açığam",
@@ -265,7 +282,22 @@ export const dict: Record<Locale, Dict> = {
     "pricing.3.f4": "Dəstək və inkişaf",
     "pricing.cta": "Paket seç",
     "pricing.note": "Başqa lazımdır? Tapşırığınıza fərdi smeta — pulsuz.",
-    "faq.kicker": "05 — FAQ",
+    "partners.kicker": "05 — Tərəfdaşlara",
+    "partners.title": "Hər ödənişdən 5%. Hər ay.",
+    "partners.sub":
+      "Xidmətlərimizi tövsiyə edin və cəlb etdiyiniz müştəri bizimlə olduğu müddətcə stabil passiv gəlir əldə edin.",
+    "partners.1.t": "Müqavilənin 5%-i",
+    "partners.1.d": "Ödəniş — müqavilə dəyərinin 5%-i, aylıq.",
+    "partners.2.t": "Hər ödənişdən",
+    "partners.2.d":
+      "Hesablanma — cəlb etdiyiniz müştəri dəstək haqqını hər ödədikdə.",
+    "partners.3.t": "Müqavilə bitənədək",
+    "partners.3.d":
+      "Mükafat — müştəri ilə müqavilə qüvvədə olduğu bütün müddətdə.",
+    "partners.cta": "Tərəfdaş ol",
+    "partners.note":
+      "Etibarlı dəstəyə ehtiyacı olanları tanıyırsınız? Bizi tanış edin — tərəfdaşlıq detallarını müzakirə edək!",
+    "faq.kicker": "06 — FAQ",
     "faq.title": "Hamının soruşduğu suallar",
     "faq.1.q": "Layihəm nə qədərdir?",
     "faq.1.a":
@@ -285,7 +317,7 @@ export const dict: Record<Locale, Dict> = {
     "faq.6.q": "Startdan sonra dəstək?",
     "faq.6.a":
       "30 gün — pulsuz. Sonra — vizitka $90/ay, CRM $290/ay, SaaS/Mobile $490/ay. Buraxılışdan sonra yoxa çıxmıram — Quvex-i özüm dəstəkləyirəm.",
-    "contact.kicker": "06 — Əlaqə",
+    "contact.kicker": "07 — Əlaqə",
     "contact.title": "Tapşırığı yazın — 1 saata cavab",
     "contact.sub":
       "Kontakt və tapşırıq barədə 2 söz yazın. Ya da birbaşa messencerə yazın — daha sürətlidir.",
@@ -309,6 +341,7 @@ export const dict: Record<Locale, Dict> = {
     "nav.process": "Process",
     "nav.pricing": "Pricing",
     "nav.faq": "FAQ",
+    "nav.partners": "Partners",
     "nav.cta": "Discuss project",
     "hero.badge": "Web • Mobile • CRM • SaaS — turnkey",
     "hero.available": "Available for projects",
@@ -411,7 +444,22 @@ export const dict: Record<Locale, Dict> = {
     "pricing.3.f4": "Support & growth",
     "pricing.cta": "Pick a plan",
     "pricing.note": "Need different? I'll make a free custom quote for your task.",
-    "faq.kicker": "05 — FAQ",
+    "partners.kicker": "05 — For partners",
+    "partners.title": "5% of every payment. Every month.",
+    "partners.sub":
+      "Recommend our services and earn steady passive income for as long as your referred client stays with us.",
+    "partners.1.t": "5% of the contract",
+    "partners.1.d": "Payout — 5% of the contract value, monthly.",
+    "partners.2.t": "With every payment",
+    "partners.2.d":
+      "Accrues each time your referred client pays for support.",
+    "partners.3.t": "For the contract lifetime",
+    "partners.3.d":
+      "Paid for the entire duration of the client's contract.",
+    "partners.cta": "Become a partner",
+    "partners.note":
+      "Know someone who needs reliable support? Introduce us — let's discuss the partnership!",
+    "faq.kicker": "06 — FAQ",
     "faq.title": "Questions everyone asks",
     "faq.1.q": "How much is my project?",
     "faq.1.a":
@@ -431,7 +479,7 @@ export const dict: Record<Locale, Dict> = {
     "faq.6.q": "Support after launch?",
     "faq.6.a":
       "30 days — free. Then — $90/mo for card site, $290/mo for CRM, $490/mo for SaaS/Mobile. I don't disappear — I maintain my own Quvex myself.",
-    "contact.kicker": "06 — Contact",
+    "contact.kicker": "07 — Contact",
     "contact.title": "Tell me the task — reply in an hour",
     "contact.sub":
       "Leave your contact and a few words. Or just message me — that's faster.",

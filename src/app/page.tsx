@@ -71,6 +71,7 @@ export default function Home() {
             <a href="#work" className="hover:text-black">{t("nav.work")}</a>
             <a href="#process" className="hover:text-black">{t("nav.process")}</a>
             <a href="#pricing" className="hover:text-black">{t("nav.pricing")}</a>
+            <a href="#partners" className="hover:text-black">{t("nav.partners")}</a>
             <a href="#faq" className="hover:text-black">{t("nav.faq")}</a>
           </nav>
           <div className="flex items-center gap-2">
@@ -349,6 +350,39 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-6 text-center text-[13.5px] text-neutral-500">{t("pricing.note")}</p>
+        </div>
+      </section>
+
+      {/* PARTNERS */}
+      <section id="partners" className="mx-auto max-w-6xl px-5 py-16 md:py-24">
+        <div className="rounded-3xl bg-neutral-950 p-7 text-white md:p-12">
+          <p className="kicker-mono text-neutral-400">{t("partners.kicker")}</p>
+          <div className="mt-3 flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
+            <h2 className="display-tight max-w-xl text-4xl font-extrabold sm:text-5xl">
+              {t("partners.title")}
+            </h2>
+            <p className="max-w-md text-[15px] text-neutral-400">{t("partners.sub")}</p>
+          </div>
+          <div className="mt-10 grid gap-px overflow-hidden rounded-2xl bg-neutral-800 sm:grid-cols-3">
+            {[1, 2, 3].map((n) => (
+              <div key={n} className="bg-neutral-950 p-6">
+                <p className="text-3xl font-extrabold text-neutral-700">0{n}</p>
+                <h3 className="mt-3 text-[16px] font-extrabold">{t(`partners.${n}.t`)}</h3>
+                <p className="mt-2 text-[13.5px] leading-relaxed text-neutral-400">
+                  {t(`partners.${n}.d`)}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+            <p className="max-w-lg text-[14px] text-neutral-400">{t("partners.note")}</p>
+            <a
+              href="#contact"
+              className="shrink-0 rounded-full bg-white px-7 py-3.5 text-[14.5px] font-bold text-black hover:bg-stone-200"
+            >
+              {t("partners.cta")} →
+            </a>
+          </div>
         </div>
       </section>
 
