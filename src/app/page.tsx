@@ -5,6 +5,7 @@ import { dict, getInitialLocale, localeLabels, locales, type Locale } from "@/li
 
 const TG = "https://t.me/amramrslnv";
 const WA = "https://wa.me/994506590423";
+const INST = "https://instagram.com/amiraslanov.dev";
 const EMAIL = "amramrslnv@gmail.com";
 const QUVEX = "https://quvex.org";
 const FOOD = "https://foodsavorycatering.com";
@@ -23,10 +24,17 @@ const STACK = [
 ];
 
 export default function Home() {
-  const [locale, setLocale] = useState<Locale>(() => getInitialLocale());
+  const [locale, setLocale] = useState<Locale>("ru");
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [task, setTask] = useState("");
+
+  // Read saved/browser locale only after hydration so server HTML
+  // and first client render always match ("ru").
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLocale(getInitialLocale());
+  }, []);
 
   useEffect(() => {
     try {
@@ -171,6 +179,9 @@ export default function Home() {
                 </a>
                 <a href={WA} target="_blank" className="rounded-xl bg-[#25D366] px-4 py-3 text-center text-[14px] font-bold text-white hover:opacity-90">
                   WhatsApp — +994 50 659 04 23
+                </a>
+                <a href={INST} target="_blank" className="rounded-xl bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] px-4 py-3 text-center text-[14px] font-bold text-white hover:opacity-90">
+                  Instagram — @amiraslanov.dev
                 </a>
                 <a href={`mailto:${EMAIL}`} className="rounded-xl border border-stone-200 px-4 py-3 text-center text-[14px] font-bold hover:bg-neutral-950 hover:text-white">
                   {EMAIL}
@@ -415,9 +426,10 @@ export default function Home() {
               <div className="flex flex-wrap gap-2">
                 <a href={TG} target="_blank" className="rounded-full bg-white px-5 py-2.5 text-[13.5px] font-bold text-black hover:bg-stone-200">Telegram</a>
                 <a href={WA} target="_blank" className="rounded-full bg-white px-5 py-2.5 text-[13.5px] font-bold text-black hover:bg-stone-200">WhatsApp</a>
+                <a href={INST} target="_blank" className="rounded-full bg-white px-5 py-2.5 text-[13.5px] font-bold text-black hover:bg-stone-200">Instagram</a>
                 <a href={`mailto:${EMAIL}`} className="rounded-full border border-neutral-700 px-5 py-2.5 text-[13.5px] font-bold hover:bg-white hover:text-black">Email</a>
               </div>
-              <p className="pt-2 text-[13px] text-neutral-500">@amramrslnv • +994 50 659 04 23 • {EMAIL}</p>
+              <p className="pt-2 text-[13px] text-neutral-500">@amramrslnv • +994 50 659 04 23 • @amiraslanov.dev • {EMAIL}</p>
             </div>
           </div>
           <div className="rounded-3xl bg-white p-6 text-neutral-950 md:p-8">
